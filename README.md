@@ -1,2 +1,3 @@
-# MySQL-JSON
-Curso de MySQL e JSON: Persistindo JSON de maneira eficiente
+# MySQL e JSON: Persistindo JSON de maneira eficiente
+
+**Suporte para JSON.**  Começando com o **MySQL 5.7.8**, o MySQL suporta o tipo JSON nativo. Os valores JSON não são armazenados como Strings, em vez disso, utiliza um formato binário interno que permite o acesso rápido a elementos de documentos. Os documentos JSON são automaticamente validados sempre que são inseridos ou atualizados, retornando erro caso o documento seja inválido. Os documentos JSON são normalizados na criação, e podem ser comparados utilizando a maioria dos operadores de comparação tais como =, <, <=, >, >=, <>, !=, e <=>;
